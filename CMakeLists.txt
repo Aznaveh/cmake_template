@@ -1,3 +1,11 @@
+#  
+#  How to make:
+#   cmake -S . -B build
+#   cmake --build build
+#   
+# if ther is a target:
+#   cmkae --build build --target whatever
+# 
 cmake_minimum_required(VERSION 3.12)
 
 project (Template)
