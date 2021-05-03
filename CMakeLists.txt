@@ -18,7 +18,7 @@ file (GLOB Template_DEMOS "Demo/*.cpp")
 
 
 set ( CMAKE_INCLUDE_CURRENT_DIR ON )
-include_directories ( Source Include )
+include_directories ( Include )
 
 add_library (Template SHARED ${Template_SOURCES} )
 add_library (Templatedemo SHARED ${Template_DEMOS} )
